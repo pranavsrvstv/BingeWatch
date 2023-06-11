@@ -1,10 +1,11 @@
 <h2>ScreenShots<h2/>
-<img width="400" alt="netflix-clone_getStarted" src="https://user-images.githubusercontent.com/120587771/218469952-eb4e34e5-d1e3-4672-96d7-0c9d7ad933ce.png">
 
-<img width="400" alt="netflix-clone_home" src="https://user-images.githubusercontent.com/120587771/218469831-e452089c-b37e-447e-a3d5-c682d9510344.png">
-<img width="400" alt="netflix-clone_profile" src="https://user-images.githubusercontent.com/120587771/218469920-26e794b8-2697-475f-9d3a-60ae36838d56.png">
-<img width="400" alt="netflix-clone_signin" src="https://user-images.githubusercontent.com/120587771/218469988-7756a189-f7d5-41a7-82af-5e2078ed16ce.png">
-<img width="700" alt="netflix-clone_stripe" src="https://user-images.githubusercontent.com/120587771/218470020-9271b150-102d-45d2-87d5-062318fe2674.png">
+<img width="300"  alt="binge_home" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/b782b812-436d-4d01-a98d-b3b0a206780b"/>
+<img width="300" height:"300" alt="home_binge" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/75f63d7b-ef63-49f4-836a-3b3ea01bb714"/>
+<img width="300" height:"300" alt="binge_banner" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/0d6373af-45a4-48ec-807b-756cf1a06025"/>
+<img width="299"  height:"300" alt="new_to" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/ba6345ef-d5b7-423f-b89e-3e050866d484"/>
+<img width="300" alt="stripe_new" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/e9a21c33-fefa-4920-aecc-50748068a469">
+<img width="300" height:"300" alt="profile_binge" src="https://github.com/pranavsrvstv/BingeWatch/assets/120587771/ea78cbdf-68d5-4eb6-a085-459d1f455ebc"/>
 
 # Getting Started with Create React App and Redux
 
