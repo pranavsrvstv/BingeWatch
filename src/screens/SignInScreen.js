@@ -6,13 +6,17 @@ const SignInScreen = () => {
   const emailRef= useRef(null);
   const passwordRef= useRef(null);
 
-
+  // const register=(e)=>{
+  //   console.log("register");
+  // }
   const register = (e) => {
+    console.log(emailRef.current.value,passwordRef.current.value,"is here");
     e.preventDefault();
     auth.createUserWithEmailAndPassword(emailRef.current.value,passwordRef.current.value)
     .then(()=>{
-
+    console.log("done");
     }).catch((error)=>{
+      console.log("error here")
      console.log(error.message);
     });
   }

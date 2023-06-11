@@ -4,16 +4,16 @@ import './HomeScreen.css'
 import Nav from '../Nav'
 import Row from '../Row'
 import requests from '../Requests'
+
 const HomeScreen = () => {
   return (
     <div className='homeScreen'>
       {/* Navbar  */}
       <Nav/>
-      
       {/* Banner  */}
       <Banner/>
       {/* Rows */}
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/>
+      <Row title="BINGEWATCH ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/>
       <Row title="TRENDING" fetchUrl={requests.getTrending} />
       <Row title="TOP RATED" fetchUrl={requests.getToprated}/>
       <Row title="ACTION MOVIES" fetchUrl={requests.getActionMovies} isLargeRow/>
@@ -21,10 +21,6 @@ const HomeScreen = () => {
       <Row title="HORROR MOVIES" fetchUrl={requests.getHorrorMovies} />
       <Row title="ROMANCE MOVIES" fetchUrl={requests.getRomanceMovies} isLargeRow/>
       <Row title="DOCUMENTARIES" fetchUrl={requests.getDocumentaries}/>
-    
-
-
-
     </div>
   )
 }

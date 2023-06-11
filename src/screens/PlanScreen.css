@@ -11,7 +11,7 @@
    padding:10px 20px;
    font-size:1rem;
    color:white;
-   background-color: orangered;
+   background-color: yellowgreen;
    font-weight:600;
    border:none;
    cursor:pointer;
@@ -22,8 +22,10 @@
     padding-bottom:3px;
     width:100%;
     
-    border-bottom : 1px solid orangered;
+    border-bottom : 1px solid yellowgreen;
 }
 .planScreen_plan--disabled>button{
-    background-color: gray;
+    background-color: white;
+    color:grey
 }
+

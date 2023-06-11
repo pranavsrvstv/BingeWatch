@@ -8,7 +8,7 @@ const Nav = () => {
     const user =useSelector(selectUser);
 
     const [show,handleshow]=useState(true);
-
+    console.log(user.email ,'is user email');
     //useNavigate can be used to navigate from another link , ie by changing the url location 
     const Navigate= useNavigate();
 
@@ -29,16 +29,12 @@ const Nav = () => {
     <div className={`nav ${!show && 'nav_black_bg'}`}>
 
         <div className="nav__content">
-        <img  onClick={()=>Navigate('/')} className='nav_logo'
-        src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-768x432.png" alt="netflix_logo" />
+        <p onClick={()=>Navigate('/')} style={{ cursor:"pointer", color:'yellow', backdropFilter:"blur(45px)" ,opacity:'100' , padding:'2px' ,fontSize:'30px',fontWeight:'bold' ,fontFamily:'Helvetica'}}>BingeWatch</p>
         <div className='nav_user'>
-        <p>Hey, {user.email}</p>
+        <p className="app_user_name" >Hey, {user.email}</p>
         <img onClick={()=>Navigate('/profile')} src="https://cdn.pixabay.com/photo/2012/04/13/21/07/user-33638_1280.png" alt="user_avatar" className='nav_avatar'/>
        
         </div>
-        
-
-        
         </div>
  
     </div>

@@ -1,15 +1,18 @@
 import React, { useState } from 'react'
 import './LoginScreen.css'
+import { useNavigate } from 'react-router-dom';
 import SignInScreen from './SignInScreen';
-const LoginScreen = () => {
-const [signIn,setSignIn]=useState(false);
 
+const LoginScreen = () => {
+
+const [signIn,setSignIn]=useState(false);
+const Navigate=useNavigate();
   return (
     <>
     
     <div className="loginScreen">
     <div className='loginScreen_background'>
-      <img src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-768x432.png" className='loginScreen_logo' alt="" />
+    <p onClick={()=>Navigate('/')} style={{ cursor:"pointer",position:'fixed',top:'1rem',left:'2px', color:'yellow', backdropFilter:"blur(45px)" ,opacity:'100' , padding:'2px' ,fontSize:'30px',fontWeight:'bold' ,fontFamily:'Helvetica'}}>BingeWatch</p>
       <button onClick={()=>setSignIn(true)} className='loginScreen_button'>
         Sign In
       </button>
@@ -36,8 +39,6 @@ const [signIn,setSignIn]=useState(false);
         </div>
         </>}
     </div>
-
-
     </div>
     
     </>

@@ -31,8 +31,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
                   <h3 className='movie_name'>
                   {`${movie?.name || movie?.original_name || "New Released"}`} 
                   </h3>
-    
-                    </div>
+                </div>
                 )
             
                 

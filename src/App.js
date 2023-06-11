@@ -11,14 +11,15 @@ import { login, logout, selectUser } from './features/counter/userSlice';
 import ProfileScreen from './screens/ProfileScreen';
 
 function App() {
+  
   const user = useSelector(selectUser);
   const dispatch= useDispatch();
-
+  console.log(user,"is user");
   useEffect(()=>{
    const unsubscribe= auth.onAuthStateChanged((userAuth)=>{
       if(userAuth){
         //Logged in
-        console.log(userAuth);
+        console.log(userAuth,"is userauth");
         dispatch(login({uid:userAuth.uid , email:userAuth.email}));
       }
       else{
