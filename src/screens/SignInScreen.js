@@ -40,7 +40,7 @@ const SignInScreen = () => {
         <button type="button" onClick={signIn}>Proceed</button>
         {/* button with type="submit" will submit the form by default and the page will reload the component,so use type =button 
         or we can also use e.preventDefault()*/}
-        <h4>New to Netflix <span onClick={register}>Sign up with above details</span></h4>
+        <h4>New to BingeWatch <span style={{cursor:'pointer'}} onClick={register}>Sign up with above details</span></h4>
       </form>
 
     </div>

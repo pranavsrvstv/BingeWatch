@@ -31,7 +31,7 @@ const Nav = () => {
         <div className="nav__content">
         <p onClick={()=>Navigate('/')} style={{ cursor:"pointer", color:'yellow', backdropFilter:"blur(45px)" ,opacity:'100' , padding:'2px' ,fontSize:'30px',fontWeight:'bold' ,fontFamily:'Helvetica'}}>BingeWatch</p>
         <div className='nav_user'>
-        <p className="app_user_name" >Hey, {user.email}</p>
+        <p style={{backdropFilter:'blur(20px)'}} className="app_user_name" >Hey, {user.email}</p>
         <img onClick={()=>Navigate('/profile')} src="https://cdn.pixabay.com/photo/2012/04/13/21/07/user-33638_1280.png" alt="user_avatar" className='nav_avatar'/>
        
         </div>

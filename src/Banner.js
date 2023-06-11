@@ -34,7 +34,7 @@ const Banner = () => {
             , backgroundSize: 'cover', backgroundPosition: 'center center'
         }}>
             <div className='banner_content'>
-                <h1 className='banner_title' style={{backdropFilter:"blur(3px)"}}>
+                <h1 className='banner_title'>
                     {movie?.name || movie?.original_name}
                 </h1>
                 <div className='banner_buttons'>
