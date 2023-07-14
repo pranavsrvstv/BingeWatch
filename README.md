@@ -16,13 +16,3 @@
 4.Subscription<br>
 5.Payment Using Stripe<br>
 <br><br>
-
-<h4>Contributor Guideline:</h4>
-<br>
-
-To run the project :<br>
-1.Place your firebase app configuration in the .env file <br>
-2.Run npm i <br>
-3.Run npm start<br>
-
-Note: You need firebase blaze plan for the payment functionalities,as it uses firebase extensions which is currently available only under blaze plan.
